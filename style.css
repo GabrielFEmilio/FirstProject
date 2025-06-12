@@ -31,7 +31,6 @@ a {
     }
     &:visited {
         color: rgb(115, 34, 3);
-        -o-transition-duration: 10s;
     }
   
 }
