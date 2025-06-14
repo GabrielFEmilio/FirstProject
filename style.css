@@ -29,8 +29,9 @@ a {
     &:hover {
         color: rgb(255, 72, 0);
     }
-    &:visited {
+    &:active {
         color: rgb(115, 34, 3);
+        transform: scale(0.98);
     }
   
 }
