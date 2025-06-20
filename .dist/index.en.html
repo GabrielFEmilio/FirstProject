@@ -12,13 +12,13 @@
 <body>
     <a href="index.pt-BR.html">Versão em Português</a>
     <h1>Personal Presentation</h1>
-    <p>Hello, my name is Gabriel Emilio and I will become a Software Engineering student starting in 2026.</p>
+    <p>Hello, <span class="Name"></span>. My name is Gabriel Emilio and I will become a Software Engineering student starting in 2026.</p>
     <p>I am excited to share a little about my journey with you.</p>
     <br>
     <br>
     <h2>About Me</h2>
     <p>I am a technology enthusiast and have a passion for learning new programming languages and development tools.</p>
-    <p>Currently, I am preparing to enter the Software Engineering course, where I hope to deepen my knowledge and skills, which today are quite basic and insignificant.</p>
+    <p>Currently, I am preparing to enter the Software Engineering course, where I hope to deepen my knowledge and skills, which today are quite basic and limited.</p>
     <br>
     <br>
     <h2>Here is a photo of me before cutting my hair that I'll leave with you:</h2>
@@ -27,7 +27,19 @@
     <br>
     <h2>Links to follow me:</h2>
     <a href="https://github.com/GabrielFEmilio">My GitHub</a> <br>
-    <a href="https://www.linkedin.com/in/gabriel-emilio-88ab581a0">My Linkedin</a>
+    <a href="https://www.linkedin.com/in/gabriel-emilio-88ab581a0">My Linkedin</a> <br>
+    <a href="https://www.linkedin.com/in/gabriel-emilio-88ab581a0/details/certifications/" onclick="return confirmLeave()">Here is a link with my certifications</a>
+     <script>
+        function confirmLeave() {
+            return confirm("This is only a link to my certifications at LinkedIn, not another website.")
+        }
+     </script>  
+
+    <h1>Disclaimer</h1>
+    <p>Please, <span class="Name"></span>, be aware that the content of this page is for informational purposes only. With it I'm learning and testing everything that I'm learning, what means that somethings may seems odd, incomplete or innacurate. I ask for your understanding and comprehension. Thank you!</p>
+
+
+    <script src="app.en.js" defer></script>
 </body>
 <footer>
     <br>
@@ -39,6 +51,6 @@
     <br>
     <br>
     <p>© 2023 Gabriel Emilio. All rights reserved.</p>
-    <a href="mailto:gabriel.fe026@gmail.com?subject= Contact from Special Site">Email for contact.</a>
+    <a href="mailto:gabriel.emilio.dev@gmail.com?subject= Contact from Special Site">Email for contact.</a>
 </footer>
 </html>

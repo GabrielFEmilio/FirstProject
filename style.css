@@ -35,3 +35,8 @@ a {
     }
   
 }
+
+span {
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+}
